@@ -1,0 +1,23 @@
+# Pixi
+.pixi/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+build/
+dist/
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data and training artifacts
+data/
+checkpoints/
+runs/
+*.pt
+*.pth
